@@ -27,8 +27,12 @@ namespace ProjPrincipal
                 Telefone = "16 9 88774545"
             };
 
+
+
             Console.WriteLine(Printer.GetPerson(funcionario));
             Console.WriteLine(Printer.GetPerson(cliente));
+
+            Console.WriteLine("Fim");
 
             Console.ReadKey();
         }
